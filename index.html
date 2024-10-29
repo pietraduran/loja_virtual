@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Tênis All Star</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Loja de Tênis All Star</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre" class="sobre-loja">
+        <div class="imagem-loja">
+            <img src="./imagens/foto da loja.jpeg" alt="Imagem da Loja">
+        </div>
+        <div class="texto-loja">
+            <h2>Sobre a Loja</h2>
+            <p>Bem-vindo à Loja de Tênis All Star! Somos apaixonados por estilo e conforto, oferecendo uma ampla seleção de tênis All Star para todos os gostos e idades. Nossa missão é proporcionar aos nossos clientes a experiência autêntica de usar um All Star, um clássico que transcende gerações e estilos. Nossos tênis são perfeitos para quem procura um calçado versátil, resistente e estiloso, com modelos que vão do básico ao mais ousado. Venha conhecer nossa coleção e encontre o All Star perfeito para você!</p>
+        </div>
+    </section>
+
+    <section id="produtos" class="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="lista-produtos">
+            <div class="produto">
+                <img src="./imagens/tenis pranco.jpeg" alt="Tênis All Star 1">
+                <h3>Tênis All Star Branco</h3>
+                <p>Modelo clássico, o Tênis All Star Branco é o verdadeiro coringa. Fabricado com lona resistente e sola de borracha vulcanizada, ele combina durabilidade e conforto. Disponível nos tamanhos 34 ao 44.<br>
+                    <strong>Material:</strong> Lona e borracha<br>
+                    <strong>Indicado para:</strong> Uso diário e casual<br>
+                    <strong>Preço:</strong> R$ 199,90</p>
+                <button onclick="adicionarAoCarrinho('Tênis All Star Branco')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/tenis preto.jpeg" alt="Tênis All Star 2">
+                <h3>Tênis All Star Preto</h3>
+                <p>Com design elegante, o Tênis All Star Preto é um ícone de versatilidade e estilo. Feito para quem gosta de discrição com toque sofisticado, ideal para todas as ocasiões. Disponível nos tamanhos 34 ao 44.<br>
+                    <strong>Material:</strong> Lona e borracha<br>
+                    <strong>Indicado para:</strong> Ocasiões casuais e urbanas<br>
+                    <strong>Preço:</strong> R$ 219,90</p>
+                <button onclick="adicionarAoCarrinho('Tênis All Star Preto')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/tenis azul.jpeg" alt="Tênis All Star 3">
+                <h3>Tênis All Star Azul</h3>
+                <p>Com um tom moderno, o Tênis All Star Azul é perfeito para compor um visual descontraído e jovem. Resistente e confortável, ideal para o dia a dia. Disponível nos tamanhos 34 ao 44.<br>
+                    <strong>Material:</strong> Lona e borracha<br>
+                    <strong>Indicado para:</strong> Visual casual e cotidiano<br>
+                    <strong>Preço:</strong> R$ 229,90</p>
+                <button onclick="adicionarAoCarrinho('Tênis All Star Azul')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/tenis vermelho.jpeg" alt="Tênis All Star 4">
+                <h3>Tênis All Star Vermelho</h3>
+                <p>Para quem gosta de um toque de cor e personalidade, o Tênis All Star Vermelho traz um visual marcante e cheio de atitude. Ideal para criar combinações ousadas. Disponível nos tamanhos 34 ao 44.<br>
+                    <strong>Material:</strong> Lona e borracha<br>
+                    <strong>Indicado para:</strong> Estilo casual e looks despojados<br>
+                    <strong>Preço:</strong> R$ 209,90</p>
+                <button onclick="adicionarAoCarrinho('Tênis All Star Vermelho')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Loja de Tênis All Star. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
